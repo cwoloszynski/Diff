@@ -17,9 +17,10 @@ class NSStringTests: XCTestCase {
 	}
 }
 
-
+/*
 extension NSRange: Equatable {}
 
 public func ==(lhs: NSRange, rhs: NSRange) -> Bool {
 	return NSEqualRanges(lhs, rhs)
 }
+*/
