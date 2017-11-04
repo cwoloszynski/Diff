@@ -7,8 +7,8 @@
 //
 
 public func diff(_ before: String, _ after: String) -> (CountableRange<Int>, String)? {
-	let result = diff(Array(before.characters), Array(after.characters))
-	return result.flatMap { ($0.0, String($0.1)) }
+	let result = diff(before.map({String($0)}), after.map({String($0)}))
+    return result.flatMap { ($0.0, String(describing:$0.1)) }
 }
 
 public func diff<T: Equatable>(_ before: [T], _ after: [T]) -> (CountableRange<Int>, [T])? {
