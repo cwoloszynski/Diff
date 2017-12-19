@@ -11,7 +11,7 @@ import Diff
 
 class DiffTests: XCTestCase {
 	func testInsert() {
-		let (range, string) = diff("Hello world", "Hello there world")!
+        let (range, string) = diff("Hello world", "Hello there world")!
 		XCTAssertEqual(6..<6, range)
 		XCTAssertEqual("there ", string)
 	}

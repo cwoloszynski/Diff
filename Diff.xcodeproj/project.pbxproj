@@ -374,6 +374,7 @@
 					};
 					2175D3AE1D17267D009C6845 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 936EKNL558;
 						LastSwiftMigration = 0900;
 					};
 					2175D3C31D17268C009C6845 = {
@@ -718,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEVELOPMENT_TEAM = 936EKNL558;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;
@@ -731,6 +733,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEVELOPMENT_TEAM = 936EKNL558;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.diff.tests;

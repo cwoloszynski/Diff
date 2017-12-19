@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2175D3DF1D17269D009C6845"
+               BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
                BuildableName = "Diff.framework"
-               BlueprintName = "Diff-watchOS"
+               BlueprintName = "Diff-tvOS"
                ReferencedContainer = "container:Diff.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2175D3F51D1726A8009C6845"
+               BuildableName = "DiffTests.xctest"
+               BlueprintName = "DiffTests-tvOS"
+               ReferencedContainer = "container:Diff.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
+            BuildableName = "Diff.framework"
+            BlueprintName = "Diff-tvOS"
+            ReferencedContainer = "container:Diff.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -47,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2175D3DF1D17269D009C6845"
+            BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
             BuildableName = "Diff.framework"
-            BlueprintName = "Diff-watchOS"
+            BlueprintName = "Diff-tvOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2175D3DF1D17269D009C6845"
+            BlueprintIdentifier = "2175D3EC1D1726A8009C6845"
             BuildableName = "Diff.framework"
-            BlueprintName = "Diff-watchOS"
+            BlueprintName = "Diff-tvOS"
             ReferencedContainer = "container:Diff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
